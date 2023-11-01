@@ -1,0 +1,158 @@
+CP:videodemo clarspau$ python -m venv venv
+CP:videodemo clarspau$ source venv/bin/activate
+(venv) CP:videodemo clarspau$ pip install -r requirements.txt
+Collecting bcrypt==4.0.1 (from -r requirements.txt (line 3))
+  Using cached bcrypt-4.0.1-cp36-abi3-macosx_10_10_universal2.whl (473 kB)
+Collecting blinker==1.5 (from -r requirements.txt (line 4))
+  Using cached blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting cffi==1.15.1 (from -r requirements.txt (line 5))
+  Using cached cffi-1.15.1-cp311-cp311-macosx_10_9_x86_64.whl (179 kB)
+Collecting click==8.1.3 (from -r requirements.txt (line 6))
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting Faker==0.9.1 (from -r requirements.txt (line 7))
+  Using cached Faker-0.9.1-py2.py3-none-any.whl (761 kB)
+Collecting Flask==2.2.3 (from -r requirements.txt (line 8))
+  Using cached Flask-2.2.3-py3-none-any.whl (101 kB)
+Collecting Flask-Bcrypt==1.0.1 (from -r requirements.txt (line 9))
+  Using cached Flask_Bcrypt-1.0.1-py3-none-any.whl (6.0 kB)
+Collecting Flask-DebugToolbar==0.13.1 (from -r requirements.txt (line 10))
+  Using cached Flask_DebugToolbar-0.13.1-py3-none-any.whl (324 kB)
+Collecting Flask-SQLAlchemy==3.0.2 (from -r requirements.txt (line 11))
+  Using cached Flask_SQLAlchemy-3.0.2-py3-none-any.whl (24 kB)
+Collecting Flask-WTF==1.0.1 (from -r requirements.txt (line 12))
+  Using cached Flask_WTF-1.0.1-py3-none-any.whl (12 kB)
+Collecting itsdangerous==2.1.2 (from -r requirements.txt (line 13))
+  Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting Jinja2==3.1.2 (from -r requirements.txt (line 14))
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting MarkupSafe==2.1.1 (from -r requirements.txt (line 15))
+  Using cached MarkupSafe-2.1.1-cp311-cp311-macosx_10_9_universal2.whl
+Collecting psycopg2-binary==2.9.5 (from -r requirements.txt (line 16))
+  Using cached psycopg2_binary-2.9.5-cp311-cp311-macosx_10_9_universal2.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (2.3 MB)
+Collecting pycparser==2.21 (from -r requirements.txt (line 17))
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Collecting setuptools==58.0.4 (from -r requirements.txt (line 18))
+  Using cached setuptools-58.0.4-py3-none-any.whl (816 kB)
+Collecting six==1.11.0 (from -r requirements.txt (line 19))
+  Using cached six-1.11.0-py2.py3-none-any.whl (10 kB)
+Collecting soupsieve==2.3.2.post1 (from -r requirements.txt (line 20))
+  Using cached soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Collecting SQLAlchemy==1.4.44 (from -r requirements.txt (line 21))
+  Using cached SQLAlchemy-1.4.44-cp311-cp311-macosx_10_9_universal2.whl (1.6 MB)
+Collecting Werkzeug==2.2.2 (from -r requirements.txt (line 22))
+  Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+Collecting WTForms==3.0.1 (from -r requirements.txt (line 23))
+  Using cached WTForms-3.0.1-py3-none-any.whl (136 kB)
+Collecting python-dateutil>=2.4 (from Faker==0.9.1->-r requirements.txt (line 7))
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting text-unidecode==1.2 (from Faker==0.9.1->-r requirements.txt (line 7))
+  Using cached text_unidecode-1.2-py2.py3-none-any.whl (77 kB)
+Collecting greenlet!=0.4.17 (from SQLAlchemy==1.4.44->-r requirements.txt (line 21))
+  Using cached greenlet-3.0.1-cp311-cp311-macosx_10_9_universal2.whl (263 kB)
+Installing collected packages: text-unidecode, six, soupsieve, setuptools, python-dateutil, pycparser, psycopg2-binary, MarkupSafe, itsdangerous, greenlet, click, blinker, bcrypt, WTForms, Werkzeug, SQLAlchemy, Jinja2, Faker, cffi, Flask, Flask-WTF, Flask-SQLAlchemy, Flask-DebugToolbar, Flask-Bcrypt
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.5.0
+    Uninstalling setuptools-65.5.0:
+      Successfully uninstalled setuptools-65.5.0
+Successfully installed Faker-0.9.1 Flask-2.2.3 Flask-Bcrypt-1.0.1 Flask-DebugToolbar-0.13.1 Flask-SQLAlchemy-3.0.2 Flask-WTF-1.0.1 Jinja2-3.1.2 MarkupSafe-2.1.1 SQLAlchemy-1.4.44 WTForms-3.0.1 Werkzeug-2.2.2 bcrypt-4.0.1 blinker-1.5 cffi-1.15.1 click-8.1.3 greenlet-3.0.1 itsdangerous-2.1.2 psycopg2-binary-2.9.5 pycparser-2.21 python-dateutil-2.8.2 setuptools-58.0.4 six-1.11.0 soupsieve-2.3.2.post1 text-unidecode-1.2
+
+[notice] A new release of pip is available: 23.1.2 -> 23.3.1
+[notice] To update, run: pip install --upgrade pip
+(venv) CP:videodemo clarspau$ pip install --upgrade pip
+Requirement already satisfied: pip in ./venv/lib/python3.11/site-packages (23.1.2)
+Collecting pip
+  Using cached pip-23.3.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 23.1.2
+    Uninstalling pip-23.1.2:
+      Successfully uninstalled pip-23.1.2
+Successfully installed pip-23.3.1
+(venv) CP:videodemo clarspau$ ipython
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/interactiveshell.py:889: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+  warn(
+Python 3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.14.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: %run app.py
+
+In [2]: db.create_all()
+Unexpected exception formatting exception. Falling back to standard exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3508, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-653042798025>", line 1, in <module>
+    db.create_all()
+  File "/Users/clarspau/Documents/Springboard/SoftwareEngineering/curriculum/28-sqlalchemy/sqla-associations-demo/VideoDemo/venv/lib/python3.11/site-packages/flask_sqlalchemy/extension.py", line 868, in create_all
+    self._call_for_binds(bind_key, "create_all")
+  File "/Users/clarspau/Documents/Springboard/SoftwareEngineering/curriculum/28-sqlalchemy/sqla-associations-demo/VideoDemo/venv/lib/python3.11/site-packages/flask_sqlalchemy/extension.py", line 839, in _call_for_binds
+    engine = self.engines[key]
+             ^^^^^^^^^^^^
+  File "/Users/clarspau/Documents/Springboard/SoftwareEngineering/curriculum/28-sqlalchemy/sqla-associations-demo/VideoDemo/venv/lib/python3.11/site-packages/flask_sqlalchemy/extension.py", line 628, in engines
+    app = current_app._get_current_object()  # type: ignore[attr-defined]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/clarspau/Documents/Springboard/SoftwareEngineering/curriculum/28-sqlalchemy/sqla-associations-demo/VideoDemo/venv/lib/python3.11/site-packages/werkzeug/local.py", line 513, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 2105, in showtraceback
+    stb = self.InteractiveTB.structured_traceback(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 1428, in structured_traceback
+    return FormattedTB.structured_traceback(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 1319, in structured_traceback
+    return VerboseTB.structured_traceback(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 1172, in structured_traceback
+    formatted_exception = self.format_exception_as_a_whole(etype, evalue, etb, number_of_lines_of_context,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 1087, in format_exception_as_a_whole
+    frames.append(self.format_record(record))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 969, in format_record
+    frame_info.lines, Colors, self.has_colors, lvals
+    ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/IPython/core/ultratb.py", line 792, in lines
+    return self._sd.lines
+           ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/utils.py", line 144, in cached_property_wrapper
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+                                               ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/core.py", line 734, in lines
+    pieces = self.included_pieces
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/utils.py", line 144, in cached_property_wrapper
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+                                               ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/core.py", line 677, in included_pieces
+    scope_pieces = self.scope_pieces
+                   ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/utils.py", line 144, in cached_property_wrapper
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+                                               ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/core.py", line 614, in scope_pieces
+    scope_start, scope_end = self.source.line_range(self.scope)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/stack_data/core.py", line 178, in line_range
+    return line_range(self.asttext(), node)
+                      ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/executing/executing.py", line 428, in asttext
+    self._asttext = ASTText(self.text, tree=self.tree, filename=self.filename)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/asttokens/asttokens.py", line 307, in __init__
+    super(ASTText, self).__init__(source_text, filename)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/asttokens/asttokens.py", line 44, in __init__
+    source_text = six.ensure_text(source_text)
+                  ^^^^^^^^^^^^^^^
+AttributeError: module 'six' has no attribute 'ensure_text'
+
+In [3]: 
